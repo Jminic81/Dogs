@@ -8,7 +8,8 @@ Average number of rows per file = 30,000
 As of November 2016, the American Kennel Club (AKC) recognizes 202 different breeds of dogs; however, the data set shows 344 unique
 breeds.  That is because there are many listings for "mixed", for "designer" dogs like Labradoodles (cross between Labrador Retriever 
 and Poodle = temperment of Lab but don't shed), and some for breeds that are not recognized by the AKC.  Additionally, there 
-appears to be a lack of standard nomenclature, for example, "puppy" and "tag" appear. 
+appears to be a lack of standard nomenclature, for example, "puppy" and "tag" appear.  Breed is populated as "." for 27 of 27,000 
+entries in the 2016 file.  Because that represents 0.1% of the data, this condition was not treated.  
 
 Pennsylvania State Law mandates that all dogs 3 months of age or older must be licensed. Dog Licenses must be purchased by January 1st 
 of each year REGARDLESS of when the license was purchased the previous year. State Dog Wardens are performing "License and 
