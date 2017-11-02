@@ -5,6 +5,11 @@ https://www.kaggle.com/kingburrito666/data-analysis-with-dog-breeds/data
 Dog: LicenseType, Breed, Color, DogName, OwnerZip, ExpYear, ValidDate   10 different files from 2007-2016  
 Average number of rows per file = 30,000
 
+As of November 2016, the American Kennel Club (AKC) recognizes 202 different breeds of dogs; however, the data set shows 344 unique
+breeds.  That is because there are many listings for "mixed", for "designer" dogs like Labradoodles (cross between Labrador Retriever 
+and Poodle = temperment of Lab but don't shed), and some for breeds that are not recognized by the AKC.  Additionally, there 
+appears to be a lack of standard nomenclature, for example, "puppy" and "tag" appear. 
+
 Pennsylvania State Law mandates that all dogs 3 months of age or older must be licensed. Dog Licenses must be purchased by January 1st 
 of each year REGARDLESS of when the license was purchased the previous year. State Dog Wardens are performing "License and 
 Rabies Compliance Checks" throughout the Commonwealth using PADogLicense.com Real Time system to track unlicensed dogs. State Dog 
@@ -14,14 +19,16 @@ way to get your dog back home.  REFERENCE http://padoglicense.com/         We ha
 are still missing and are listed on our FREE web site "www.palostpet.com".   
 
 Discuss how the data set changes very little year over year due to the same pet being registered every year over a 10 year period.  
-Compared a few single years to the aggregate and that is the case.
+Compared a few single years to the aggregate and that is the case.  The 10 csv files were merged merely for the learning exercise than
+to enrich the data set and improve accuracy.
 
 An annual license is $8.50 and a lifetime license is $51.50. If the animal is spayed or neutered, the annual fee is $6.50 and lifetime 
 is $31.50. Discounts are available to older adults and people with disabilities. The small license fee helps the millions of dogs in 
 the state by funding the Pennsylvania Department of Agriculture Bureau of Dog Law Enforcement.
 
 Data is for 160 different zip codes in PA.  There are a total of 2,174 zip codes in PA for 67 counties.  Looking at the top zip codes by
-count, all of the locations are within a 15 mile radius of Pittsburgh.  So there are about 30,000 dogs JUST within that small area!
+count, all of the locations are within a 15 mile radius of Pittsburgh.  So there are about 30,000 dogs JUST within that small area.  
+There are millions of licenced dogs in the state of Pennslyvania.
 
 15235    11443  PITTSBURGH
 15108    11302  CORAOPOLIS
