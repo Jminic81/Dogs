@@ -1,21 +1,23 @@
-Largest Dog Breed Dataset
-Kernel by Liam Larsen
-https://www.kaggle.com/kingburrito666/data-analysis-with-dog-breeds/data
+#Analysis of Largest Dog Breed Dataset(Ref. 1)
 
-Dog: LicenseType, Breed, Color, DogName, OwnerZip, ExpYear, ValidDate   10 different files from 2007-2016  
-Average number of rows per file = 30,000
+##Introduction
+
+The Largest Dog Breed Dataset consists of 10 different .csv files; one for each of the years 2007 through 2016.  The same seven columns 
+appear in each file; LicenseType, Breed, Color, DogName, OwnerZip, ExpYear, ValidDate.  The average number of rows per file is 
+about 30,000.    
 
 As of November 2016, the American Kennel Club (AKC) recognizes 202 different breeds of dogs; however, the data set shows 344 unique
 breeds.  That is because there are many listings for "mixed", for "designer" dogs like Labradoodles (cross between Labrador Retriever 
 and Poodle = temperment of Lab but don't shed), and some for breeds that are not recognized by the AKC.  Additionally, there 
-appears to be a lack of standard nomenclature, for example, there are a few abbreviations that result in duplicates and "puppy" and 
+appears to be a lack of standard nomenclature.  For example, there are a few abbreviations that result in duplicates and "puppy" and 
 "tag" appear but only twice in the 2016 dataset.  
 
 A count of blank fields is summarized in the Jupyter notebook.  The actual 2016 data file was scanned for other missing data:  
 (1.) Breed is populated as "." for 0.1% of the entries and "other" for 0.2% of the entries
 (2.) Name is populated as "?" or some version of "Not given" for 0.1% of the entries
 (3.) Color is populates as "." or "Other" in 1% of the entries
-The flaws in the dataset were deemed insignificant and were not treated.
+
+The flaws described above were deemed insignificant and were not treated.
 
 Pennsylvania State Law mandates that all dogs 3 months of age or older must be licensed. Dog Licenses must be purchased by January 1st 
 of each year REGARDLESS of when the license was purchased the previous year. State Dog Wardens are performing "License and 
@@ -47,3 +49,5 @@ There are millions of licenced dogs in the state of Pennslyvania.
 15239     7546  PITTSBURGH
 15101     7223  ALLISON PARK
  
+References:
+1.  https://www.kaggle.com/kingburrito666/data-analysis-with-dog-breeds/data.  Dataset and kernel by Liam Larsen.
