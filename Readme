@@ -6,6 +6,21 @@ The Largest Dog Breed Dataset consists of 10 different .csv files; one for each 
 appear in each file; LicenseType, Breed, Color, DogName, OwnerZip, ExpYear, ValidDate.  The average number of rows per file is 
 about 30,000.    
 
+The origination of the data set is related to the Pennsylvania State Law that mandates all dogs 3 months of age or older must be 
+licensed. Dog Licenses must be purchased by January 1st of each year regardless of when the license was purchased the previous year.  
+An annual license is $8.50 and a lifetime license is $51.50. Discounts are available to older adults and people with disabilities 
+(Ref. 2); hence the different listings in the LicenseType column. 
+
+The license fee funds the Pennsylvania Department of Agriculture Bureau of Dog Law Enforcement.  State Dog Wardens perform "License and 
+Rabies Compliance Checks" throughout the Commonwealth using PADogLicense.com Real Time system to track unlicensed dogs. State Dog 
+Wardens may issue fines up to $300.00 plus court cost per dog for violation of this law.  One of the benefits of licensing is dog owners
+can use a free website to possibly be reunited with their lost pet (Ref. 3). More 5,695 lost pets have been reunited with their owners
+and over 540 pets still missing.   
+
+Discuss how the data set changes very little year over year due to the same pet being registered every year over a 10 year period.  
+Compared a few single years to the aggregate and that is the case.  The 10 csv files were merged merely for the learning exercise than
+to enrich the data set and improve accuracy.
+
 As of November 2016, the American Kennel Club (AKC) recognizes 202 different breeds of dogs; however, the data set shows 344 unique
 breeds.  That is because there are many listings for "mixed", for "designer" dogs like Labradoodles (cross between Labrador Retriever 
 and Poodle = temperment of Lab but don't shed), and some for breeds that are not recognized by the AKC.  Additionally, there 
@@ -18,22 +33,6 @@ A count of blank fields is summarized in the Jupyter notebook.  The actual 2016 
 (3.) Color is populates as "." or "Other" in 1% of the entries
 
 The flaws described above were deemed insignificant and were not treated.
-
-Pennsylvania State Law mandates that all dogs 3 months of age or older must be licensed. Dog Licenses must be purchased by January 1st 
-of each year REGARDLESS of when the license was purchased the previous year. State Dog Wardens are performing "License and 
-Rabies Compliance Checks" throughout the Commonwealth using PADogLicense.com Real Time system to track unlicensed dogs. State Dog 
-Wardens may issue fines up to $300.00 plus court cost per dog for violation of this law.  Please spread the word to family and 
-friends on the importance of registering their pets. Please Protect Your Dog, Buy A License, It Is The Law, and it is the only sure 
-way to get your dog back home.  REFERENCE http://padoglicense.com/         We have reunited more than "5,695 LOST PETS". Over 540+ pets 
-are still missing and are listed on our FREE web site "www.palostpet.com".   
-
-Discuss how the data set changes very little year over year due to the same pet being registered every year over a 10 year period.  
-Compared a few single years to the aggregate and that is the case.  The 10 csv files were merged merely for the learning exercise than
-to enrich the data set and improve accuracy.
-
-An annual license is $8.50 and a lifetime license is $51.50. If the animal is spayed or neutered, the annual fee is $6.50 and lifetime 
-is $31.50. Discounts are available to older adults and people with disabilities. The small license fee helps the millions of dogs in 
-the state by funding the Pennsylvania Department of Agriculture Bureau of Dog Law Enforcement.
 
 Data is for 160 different zip codes in PA.  There are a total of 2,174 zip codes in PA for 67 counties.  Looking at the top zip codes by
 count, all of the locations are within a 15 mile radius of Pittsburgh.  So there are about 30,000 dogs JUST within that small area.  
@@ -51,3 +50,5 @@ There are millions of licenced dogs in the state of Pennslyvania.
  
 References:
 1.  https://www.kaggle.com/kingburrito666/data-analysis-with-dog-breeds/data.  Dataset and kernel by Liam Larsen.
+2 . http://padoglicense.com/
+3.  www.palostpet.com
