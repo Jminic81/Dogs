@@ -22,8 +22,7 @@ owners and over 540 pets are still missing (time range for these data was not pr
 ### Dataset Overview
 
 The data set changes very little year over year due to the same pet being registered every year over a 10 year period.  This statement 
-was validated by comparing a few of the single year data sets to the aggregate.  The 10 .csv files were merged more for the learning 
-exercise than to enrich the data set and improve accuracy.
+was validated by comparing a few of the single year data sets to each other and to the aggregate.  The 10 .csv files were merged more for the learning exercise than to enrich the data set and improve accuracy.
 
 A count of blank fields is summarized in the Jupyter notebook.  The actual 2016 data file was scanned for other missing data:  
 1. Breed is populated as "." for 0.1% of the entries and "other" for 0.2% of the entries
@@ -39,19 +38,19 @@ appears to be a lack of standard nomenclature.  For example, there are a few abb
 "tag" appear but only twice in the 2016 dataset.  
 
 Data is for 160 different zip codes in PA.  There are a total of 2,174 zip codes in PA for 67 counties.  Re:  below - looking at the 
-top zip codes by count, all of the locations are within a 15 mile radius of Pittsburgh.  So there are about 30,000 dogs just within 
-that small area.  There are millions of licenced dogs in the state of Pennslyvania!
+top zip codes by count, all of the locations are within a 15 mile radius of Pittsburgh.  It is conceivable that there are about 30,000 dogs just in the greater Pittsburgh area as there are millions of licenced dogs in the state of Pennslyvania.
 
-ZipCode  Count  City
-15235    11443  Pittsburgh
-15108    11302  Coraopolis
-15044     9145  Gibsonia
-15102     9144  Bethel Park
-15236     8519  Pittsburgh
-15146     8351  Monroeville
-15136     7655  Mc Kees Rocks
-15239     7546  Pittsburgh
-15101     7223  Allison Park
+| ZipCode | Count  |  City           | 
+|---------|:------:|:---------------:|
+| 15235   | 11443  |  Pittsburgh     |
+| 15108   | 11302  |  Coraopolis     |
+| 15044   |  9145  |  Gibsonia       |
+| 15102   |  9144  |  Bethel Park    |
+| 15236   |  8519  |  Pittsburgh     |
+| 15146   |  8351  |  Monroeville    |
+| 15136   |  7655  |  Mc Kees Rocks  |
+| 15239   |  7546  |  Pittsburgh     |
+| 15101   |  7223  |  Allison Park   |
 
 The Jupyter Notebook contains the raw data analysis and visualizations.
  
