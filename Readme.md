@@ -52,7 +52,9 @@ top zip codes by count, all of the locations are within a 15 mile radius of Pitt
 | 15239   |  7546  |  Pittsburgh     |
 | 15101   |  7223  |  Allison Park   |
 
-The Jupyter Notebook contains the raw data analysis and visualizations.
+### Analysis
+
+The Jupyter notebook "Merge" in ths repository contains the raw data analysis and visualizations.
  
 References:
 1.  https://www.kaggle.com/kingburrito666/data-analysis-with-dog-breeds/data.  Dataset and kernel by Liam Larsen.
