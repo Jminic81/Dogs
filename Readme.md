@@ -38,17 +38,17 @@ but only twice in the 2016 dataset.
 Data is for 160 different zip codes in PA.  There are a total of 2,174 zip codes in PA for 67 counties.  Re:  below - looking at the 
 top zip codes by count, all of the locations are within a 15 mile radius of Pittsburgh.  It is conceivable that there are about 30,000 dogs just in the greater Pittsburgh area as there are millions of licenced dogs in the state of Pennslyvania.
 
-| ZipCode | Count  |  City           | 
-|:-------:|-------:|:----------------|
-| 15235   | 11443  |  Pittsburgh     |
-| 15108   | 11302  |  Coraopolis     |
-| 15044   |  9145  |  Gibsonia       |
-| 15102   |  9144  |  Bethel Park    |
-| 15236   |  8519  |  Pittsburgh     |
-| 15146   |  8351  |  Monroeville    |
-| 15136   |  7655  |  Mc Kees Rocks  |
-| 15239   |  7546  |  Pittsburgh     |
-| 15101   |  7223  |  Allison Park   |
+|__ZipCode__|__Count__|__City__         | 
+|:---------:|--------:|:----------------|
+| 15235     | 11443   |  Pittsburgh     |
+| 15108     | 11302   |  Coraopolis     |
+| 15044     |  9145   |  Gibsonia       |
+| 15102     |  9144   |  Bethel Park    |
+| 15236     |  8519   |  Pittsburgh     |
+| 15146     |  8351   |  Monroeville    |
+| 15136     |  7655   |  Mc Kees Rocks  |
+| 15239     |  7546   |  Pittsburgh     |
+| 15101     |  7223   |  Allison Park   |
 
 ### Analysis
 
