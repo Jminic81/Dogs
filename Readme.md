@@ -2,9 +2,7 @@
 
 ### Introduction
 
-The Largest Dog Breed Dataset *(Ref. 1)* consists of 10 different .csv files that were merged into one; one for each of the years 2007 through 
-2016.  The same seven columns appear in each file; LicenseType, Breed, Color, DogName, OwnerZip, ExpYear, ValidDate.  The average 
-number of rows per file is about 30,000.    
+The Largest Dog Breed Dataset *(Ref. 1)* consists of 10 different .csv files that were merged into one; one for each of the years 2007 through 2016.  The same seven columns appear in each file; LicenseType, Breed, Color, DogName, OwnerZip, ExpYear, ValidDate.  The average number of rows per file is about 30,000.    
 
 ### Dataset Origin and Significance
 
@@ -41,7 +39,7 @@ Data is for 160 different zip codes in PA.  There are a total of 2,174 zip codes
 top zip codes by count, all of the locations are within a 15 mile radius of Pittsburgh.  It is conceivable that there are about 30,000 dogs just in the greater Pittsburgh area as there are millions of licenced dogs in the state of Pennslyvania.
 
 | ZipCode | Count  |  City           | 
-|---------|:------:|:---------------:|
+|:-------:|-------:|:----------------|
 | 15235   | 11443  |  Pittsburgh     |
 | 15108   | 11302  |  Coraopolis     |
 | 15044   |  9145  |  Gibsonia       |
@@ -54,7 +52,7 @@ top zip codes by count, all of the locations are within a 15 mile radius of Pitt
 
 ### Analysis
 
-The Jupyter notebook "Merge" in ths repository contains the raw data analysis and visualizations.
+The Jupyter notebook "Dogs Merge" in ths repository contains the raw data analysis and visualizations.
  
 References:
 1.  https://www.kaggle.com/kingburrito666/data-analysis-with-dog-breeds/data.  Dataset and kernel by Liam Larsen.
