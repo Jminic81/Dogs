@@ -54,7 +54,7 @@ top zip codes by count, all of the locations are within a 15 mile radius of Pitt
 
 The Jupyter notebook "Dogs Merge" in ths repository contains the raw data analysis and visualizations.
  
-References:
+### References:
 1.  https://www.kaggle.com/kingburrito666/data-analysis-with-dog-breeds/data.  Dataset and kernel by Liam Larsen.
 2.  http://padoglicense.com/
 3.  www.palostpet.com
