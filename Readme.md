@@ -15,11 +15,11 @@ The license fee funds the Pennsylvania Department of Agriculture Bureau of Dog L
 Rabies Compliance Checks" throughout the Commonwealth using PADogLicense.com Real Time system to track unlicensed dogs. State Dog 
 Wardens may issue fines up to $300.00 plus court cost per dog for violation of this law.  One of the benefits of licensing is dog owners
 can use a free website *(Ref. 3)* to possibly be reunited with their lost pet. More than 5,695 lost pets have been reunited with their 
-owners and over 540 pets are still missing (time range for these data was not provided in literature).   
+owners and over 540 pets are still missing (time range for these data was not provided in the literature).   
 
 ### Dataset Overview
 
-The data set changes very little year over year due to the same pet being registered every year over a 10 year period.  This statement 
+The data set changes very little year over year due to the same pet being registered every year of the life span.  This statement 
 was validated by comparing a few of the single year data sets to each other and to the aggregate.  The 10 .csv files were merged more for the learning exercise than to enrich the data set and improve accuracy.
 
 A count of blank fields is summarized in the Jupyter notebook.  The actual 2016 data file was scanned for other missing data:  
@@ -27,13 +27,13 @@ A count of blank fields is summarized in the Jupyter notebook.  The actual 2016 
 2. Name is populated as "?" or some version of "Not given" for 0.1% of the entries
 3. Color is populates as "." or "Other" in 1% of the entries
 
-The flaws described above were deemed insignificant and were not treated.
+The flaws described above were deemed insignificant for this exercise and were not treated.
 
 As of November 2016, the American Kennel Club (AKC) recognizes 202 different breeds of dogs; however, the data set shows 344 unique
 breeds.  That is because there are many listings for "mixed", for "designer" dogs like Labradoodles (cross between Labrador Retriever 
 and Poodle = temperment of Lab but don't shed), and some for breeds that are not recognized by the AKC.  Additionally, there 
-appears to be a lack of standard nomenclature.  For example, there are a few abbreviations that result in duplicates, and "puppy" and 
-"tag" appear but only twice in the 2016 dataset.  
+appears to be a lack of standard nomenclature.  For example, some abbreviations resulted in duplicates, and "puppy" and "tag" appear 
+but only twice in the 2016 dataset.  
 
 Data is for 160 different zip codes in PA.  There are a total of 2,174 zip codes in PA for 67 counties.  Re:  below - looking at the 
 top zip codes by count, all of the locations are within a 15 mile radius of Pittsburgh.  It is conceivable that there are about 30,000 dogs just in the greater Pittsburgh area as there are millions of licenced dogs in the state of Pennslyvania.
